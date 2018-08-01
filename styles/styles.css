@@ -1,23 +1,37 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .header{
     background-color: white;
 }
 
 .header__content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header__content__logo__img{
-    max-width: 20%;
+    max-width: 18%;
+    position: absolute;
+    left: 2%
 }
 
 .header__content__nav{
+    max-width: 30%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.header__content__nav__ul{
     list-style-type: none;
-    max-width: 100%;
 }
 
 .header__content__nav__link{
     display: inline;
+    padding: 5px;
+    font-size: 1.2em;
 }
 
 .header__content__nav__link a{
