@@ -1,42 +1,42 @@
-body{
+body {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.header{
+.header {
+    max-width: 100%;
     background-color: white;
     padding: 0;
 }
 
-.header__content{
+.header__content {
     position: relative;
     display: flex;
     justify-content: space-around;
 }
 
-.header__content__logo{
+.header__content__logo { 
     padding: 0;
-    margin: 1px;
     position: absolute;
     left: 1%;
 }
 
-.header__content__logo__img{
+.header__content__logo__img {
     max-width: 15%;
 }
 
-.header__content__nav{
+.header__content__nav {
     max-width: 30%;
     padding: 5px 0;
     position: absolute;
     right: 3%;
 }
 
-    .header__content__nav__ul{
+    .header__content__nav__ul {
        list-style-type: none;
        padding: 0;
     }
 
-        .header__content__nav__li{
+        .header__content__nav__li {
             display: inline;
             margin: 10px;
         }
@@ -48,7 +48,7 @@ body{
                 padding: 6px 0px;
                 font-size: 1em;
             }
-            .header__content__nav__li__btn-active{
+            .header__content__nav__li__btn-active {
                 background-color: white;
                 border: none;
                 border-bottom: 2px solid #1cc69f;
@@ -56,10 +56,15 @@ body{
                 padding: 6px 0px;
                 font-size: 1em;
             }
-            .header__content__nav__li__btn:hover{
+            .header__content__nav__li__btn:hover {
                 border-bottom: 2px solid #1cc69f;
                 color: #1cc69f;
             }
 
+
+.hero {
+    max-width: 100%;
+    position: relative;
+}
 
 
