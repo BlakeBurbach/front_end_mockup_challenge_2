@@ -1,3 +1,51 @@
-h1{
-    color: red;
+.body{
+    position: relative;
 }
+
+.header{
+    background-color: white;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 10px; */
+}
+
+.header__content__logo{
+    /* object-fit: cover; */
+    /* max-width: 50%; */
+    position: relative;
+    padding: 20px 10px;
+    background-color: white;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.header__content__logo__img{
+    max-width: 20%;
+    position: absolute;
+    left: 10%;
+    right: 5%;
+    top: 50%;
+}
+
+.header__content__logo__name{
+    max-width: 20%;
+    color: #545454;
+    position: absolute;
+    left: 35%;
+    right: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+}
+
+.header__content__nav{
+    list-style-type: none;
+}
+
+.header__content__nav__link{
+    display: inline;
+}
+
