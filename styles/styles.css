@@ -62,26 +62,35 @@ body {
             }
             .header__content__nav__li__btn:hover {
                 border-bottom: 2px solid #1cc69f;
-                color: #1cc69f;
+                color: #1cc49d;
             }
 
 
 .hero {
-    background-image: url("../images/business_reading.jpg");
-    height: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background: 
+    linear-gradient( to right,
+        rgba(116, 201, 201, 0.652), 
+        rgba(134, 199, 134, 0.597)
+    ),
+    url("../images/business_reading.jpg");
+    height: 600px;
+    background-position: center;
     background-size: cover;
-    position: relative;
-    padding: 100px;
+    padding: 0px; 
 }
 
-.hero__content__text {
-    text-align: center;
+/* 
+.main__content {
+    margin: 20px;
+}
+
+.main__content__text {
+    text-align: left;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 10%;
+    right: 20%;
     transform: translate(-50%, -50%);
     color: white;
-}
+} */
 
