@@ -69,28 +69,35 @@ body {
 .hero {
     background: 
     linear-gradient( to right,
-        rgba(116, 201, 201, 0.652), 
-        rgba(134, 199, 134, 0.597)
+        rgba(102, 177, 169, 0.666), 
+        rgba(130, 194, 137, 0.686)
     ),
     url("../images/business_reading.jpg");
     height: 600px;
     background-position: center;
     background-size: cover;
-    padding: 0px; 
-}
-
-/* 
-.main__content {
-    margin: 20px;
+    background-repeat: no-repeat;
 }
 
 .main__content__text {
-    text-align: left;
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 8%;
     right: 20%;
-    transform: translate(-50%, -50%);
     color: white;
-} */
+}
+
+    .main__content__text__title {
+        font-size: 2.5rem;
+        line-height: 1;
+        letter-spacing: 2px;
+    }
+
+    .main__content__text__paragraph {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color: #f7faf9; 
+        opacity: .9;
+    }
 
