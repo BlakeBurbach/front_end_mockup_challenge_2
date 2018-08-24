@@ -6,50 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Header and Hero Challenge</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600|Open Sans:300" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Header with logo and nav bar -->
-    <header class="header">
-        <div class="header__content">
-            <div class="header__content__logo">
-                <img class="header__content__logo__img" src="images/fleur_de_lis_1.jpg" alt="Green Fleur de Lis">
-            </div>
-            <nav class="header__content__nav">
-                <ul class="header__content__nav__ul">
-                    <!-- this top li button's class added active just for demonstration -->
-                    <li class="header__content__nav__li">
-                        <button class="header__content__nav__li__btn-active">Home</button>
+    <div class="grid-container">
+        <!-- Header with logo and nav bar -->
+        <header class="header">
+            <img class="header__logo" src="images/fleur_de_lis_1.jpg" alt="Green Fleur de Lis">
+            <nav class="header__nav">
+                <ul class="header__nav--ul">
+                    <li class="header__nav--li">
+                        <a class="nav__li--link" href="#index">Home</a>
                     </li>
-                    <li class="header__content__nav__li">
-                        <button class="header__content__nav__li__btn">About</button>
+                    <li class="header__nav--li">
+                        <a class="nav__li--link" href="#about">About</a>
                     </li>
-                    <li class="header__content__nav__li">
-                        <button class="header__content__nav__li__btn">Services</button>
+                    <li class="header__nav--li">
+                        <a class="nav__li--link" href="#services">Services</a>
                     </li>
-                    <li class="header__content__nav__li">
-                        <button class="header__content__nav__li__btn">Contact</button>
+                    <li class="header__nav--li">
+                        <a class="nav__li--link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
-        </div>
-    </header>
-    <!-- this is where the background image will go -->
-    <div class="hero">
-    </div>
-    <!-- text and button to lay over hero image -->
-    <main class="main__content">
-        <div class="main__content__text">
-            <h1 class="main__content__text__title">Capture your audience
-                <br /> with your message</h1>
-            <p class="main__content__text__paragraph">Our extension team of researchers and auditors will reveal
-                <br /> details about your audience you never expected!
+        </header>
+        <div class="hero">
+            <h1 class="hero__title">Capture your audience with your message</h1>
+            <p class="hero__text">Our extension team of researchers and auditors will reveal details about your audience
+                you never expected!
             </p>
-            <button class="main__content__text__button">Talk to Us</button>
+            <button class="hero__button">Talk to Us</button>
         </div>
-    </main>
+    </div>
 </body>
 
 </html>
