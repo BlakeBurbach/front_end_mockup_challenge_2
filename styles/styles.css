@@ -68,7 +68,7 @@ body {
     grid-row: first-row / last-row;
     background: 
     linear-gradient( to right,
-    rgba(113, 192, 175, 0.726), 
+    rgba(103, 187, 169, 0.637), 
     rgba(150, 197, 156, 0.774)
     ),
     url("../images/business_reading.jpg");
@@ -92,23 +92,25 @@ body {
     .hero__content--text {
         font-size: 16px;
         font-weight: 300;
-        letter-spacing: .45px;
-        line-height: 1.3;
+        letter-spacing: .5px;
+        line-height: 1.4;
         color: #f7faf9de; 
     }
-/* 
+
     .hero__content--button {
+        margin-top: 15px;
         padding: 10px 90px;
-        font-size: .95rem;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: 300;
         color: #f7faf9d9;
         background-color: rgba(255, 255, 255, 0);
         border: 1px solid #f7faf9c6;
-        transition-duration: 0.4s;
+        border-radius: 1px;
+        transition-duration: 0.2s;
     }
 
     .hero__content--button:hover {
         color: #1cc69f;
         background-color: #f7faf9d9;
-        transition-duration: .4s;
-    } */
+        transition-duration: 0.2s;
+    }
